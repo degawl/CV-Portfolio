@@ -773,11 +773,24 @@ img.skills-icon {
 	z-index: 3;
 }
 .btn {
-	margin-top: 10%;
+	margin-top: 30px;
 	margin-left: 25%;
 	width: 50%;
 }
 
 .portfolio-link {
 	width: 100%;
+	margin-bottom: 50px;
+}
+
+@media(max-width: 300px) {
+	.btn {
+		margin-left: 10%;
+		width: 80%;
+	}
+
+	.portfolio-link {
+		width: 100%;
+		margin-bottom: 10px;
+	}
 }
